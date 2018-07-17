@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+puts <<-BANNER if STDOUT.isatty
+☁    _ __   __ _  __ _ ___
+☁   | '_ \ / _` |/ _` / __|
+☁   | |_) | (_| | (_| \__ \\
+☁   | .__/ \__,_|\__,_|___/
+☁   |_|
+
+BANNER
+
+require_relative '../lib/entrypoint.rb'
